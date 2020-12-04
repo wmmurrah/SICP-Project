@@ -1,3 +1,4 @@
+#lang sicp
 (define (cube-root x)
   (define (square x)
     (* x x))
@@ -12,3 +13,5 @@
 	(cube-iter (improve guess x)
 		   x)))
   (cube-iter 1.0 x))
+
+(cube-root 27)

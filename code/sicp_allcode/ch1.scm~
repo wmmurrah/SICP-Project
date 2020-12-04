@@ -6,7 +6,7 @@
 
 ;;; BEWARE: Although the whole file can be loaded into Scheme,
 ;;;  don't expect the programs to work if you do so.  For example,
-;;;  the redefinition of + in exercise 1.9 wreaks havoc with the
+;;;  the redefinition of + in exercise  wreaks havoc with the
 ;;;  last version of square defined here.
 
 
@@ -119,7 +119,7 @@
 ;;EXERCISE 1.1
 ;: 10
 
-;: (+ 5 3 4)
+;; (+ 5 3 4)
 
 ;: (- 9 1)
 
@@ -149,6 +149,11 @@
 ;: 	 ((< a b) b)
 ;: 	 (else -1))
 ;:    (+ a 1))
+
+;; EXERCISE 1.2 (WMM)
+
+(/ (+ 5 4 (- 2 (- 3 ( + 6 (/ 4 5)))))
+   (* 3 (- 6 2) (- 2 7)))
 
 ;;EXERCISE 1.4
 (define (a-plus-abs-b a b)

@@ -1,3 +1,4 @@
+#lang sicp
 ;;;;CODE FROM CHAPTER 1 OF STRUCTURE AND INTERPRETATION OF COMPUTER PROGRAMS
 
 ;;; Examples from the book are commented out with ;: so that they
@@ -6,7 +7,7 @@
 
 ;;; BEWARE: Although the whole file can be loaded into Scheme,
 ;;;  don't expect the programs to work if you do so.  For example,
-;;;  the redefinition of + in exercise 1.9 wreaks havoc with the
+;;;  the redefinition of + in exercise  wreaks havoc with the
 ;;;  last version of square defined here.
 
 
